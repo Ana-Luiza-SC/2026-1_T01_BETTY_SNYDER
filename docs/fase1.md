@@ -43,6 +43,30 @@ O cenário de aplicação da avaliação envolve o uso real do sistema web por e
 - Necessidade de respostas rápidas e interface intuitiva.
   Dessa forma, os resultados da avaliação serão usados diretamente para orientar decisões técnicas e gerenciais sobre a evolução do sistema, garantindo maior qualidade de uso e desempenho.
 
+## Requisitante
+
+O requisitante da avaliação é a equipe responsável pelo projeto No Fluxo UNB, composta pelos integrantes envolvidos no desenvolvimento, manutenção e garantia da qualidade do sistema. A equipe solicita a avaliação com o objetivo de verificar se o software atende aos critérios mínimos de qualidade definidos para usabilidade e eficiência.  
+
+## Partes Interessadas (Stakeholders)
+|Stakeholder|Papel no Projeto|Necessidades/Expectativas|Influência na Avaliação|
+|-----------|----------------|-------------------------|-----------------------|
+|Desenvolvedores|Implementação e manutenção do sistema|Identificar falhas técnicas e oportunidades de melhoria|Definem correções e evoluções a partir dos resultados|
+|Equipe de Qualidade|Planejamento e execução da avaliação|Obter métricas confiáveis sobre qualidade|Define critérios, métricas e procedimentos de avaliação|
+|Usuários finais (estudantes)|Utilização direta da plataforma|Facilidade de uso, rapidez e estabilidade|Influenciam critérios de usabilidade e experiência|
+|Administradores| Operadores	Monitoramento e suporte do sistema|Estabilidade operacional e baixo índice de falhas|Influenciam requisitos de desempenho e disponibilidade|
+|Universidade de Brasília (UnB)|Contexto institucional do sistema|Qualidade do serviço oferecido aos estudantes|Influencia expectativas gerais de qualidade|
+|Equipe de Infraestrutura|Hospedagem e suporte técnico|Uso eficiente de recursos computacionais|Influencia critérios de eficiência e desempenho|
+
+## Relação dos Stakeholders com a Avaliação
+
+- As **partes interessadas** influenciam diretamente a definição do escopo e dos critérios da avaliação:
+- Os **usuários finais** influenciam os critérios de usabilidade, acessibilidade e facilidade de aprendizado;
+- Os **desenvolvedores** utilizam os resultados para priorizar correções e melhorias técnicas;
+- A **equipe de qualidade** define métricas e interpreta os resultados obtidos;
+- Os **operadores e administradores** contribuem para os critérios relacionados à estabilidade e desempenho;
+- A **instituição** vinculada ao projeto influencia os padrões esperados de qualidade e confiabilidade.
+
+
 ## Descrição Estruturada e Classificação do Software
 
 ### Identificação do Produto
@@ -201,3 +225,4 @@ A descrição estruturada acima evidencia os seguintes pontos relevantes para o 
 | ------ | -------------- | ---------- | ------------------------------------------------ |
 | 1.0    | Julia Gabriela | 11/05/2026 | Criação do documento.                            |
 | 1.1    | Ana Luiza      | 12/05/2026 | Adição da Descrição Estruturada e Classificação. |
+| 1.2    | Julia Gabriela | 12/05/2026 | Adicionando stakeholders.                        |
