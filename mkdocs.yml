@@ -1,0 +1,35 @@
+site_name: Grupo Betty Snyder
+
+theme:
+  name: material
+
+  palette:
+
+    # Tema claro
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+
+    # Tema escuro
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+  icon:
+    logo: material/source-branch
+
+nav:
+  - Início: inicio.md
+  - 'Fase 1 - Processo de Avaliação': fase1.md
+  - Fase 2: fase2.md
+  - Fase 3: fase3.md
+  - Fase 4: fase4.md
+
+markdown_extensions:
+  - md_in_html
