@@ -8,7 +8,7 @@ O projeto desenvolvido pelo grupo será o [No Fluxo UNB](https://no-fluxo.criane
 
 <div align="center">
   <img 
-    src="../assets/home-nofluxounb.png"
+    src="../assets/inicio/home-nofluxounb.png"
     style="border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);"
   >
   <div style="margin-top: 8px; font-size: 14px;">
@@ -31,7 +31,7 @@ Suas contribuições foram essenciais para tornar a programação mais acessíve
 
   <div>
     <img 
-      src="../assets/betty-perfil-2.jpg"
+      src="../assets/inicio/betty-perfil-2.jpg"
       width="250"
       style="border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);"
     >
@@ -42,7 +42,7 @@ Suas contribuições foram essenciais para tornar a programação mais acessíve
 
   <div>
     <img 
-      src="../assets/betty-perfil.jpg"
+      src="../assets/inicio/betty-perfil.jpg"
       width="250"
       style="border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);"
     >

@@ -1,75 +1,4 @@
-# Fase 1 - Requisitos de avaliação
-
-## Contexto do trabalho
-
-Este trabalho foi desenvolvido no âmbito da disciplina de Qualidade de Software, para definir os requisitos de avaliação da qualidade do
-software escolhido pela equipe, o [No Fluxo UNB](https://no-fluxo.crianex.com/), incluindo:
-
-1. Propósito da avaliação;
-2. Identificação do tipo de produto;
-3. Especificação inicial do modelo de qualidade.
-
-## Sobre o aplicativo
-
-O [No Fluxo UNB](https://no-fluxo.crianex.com/) é um sistema web desenvolvido para auxiliar estudantes da Universidade de Brasília no planejamento acadêmico do curso. O software oferece um fluxograma interativo e personalizado, permitindo que os alunos organizem melhor sua trajetória universitária.
-
-O principal problema que o sistema busca resolver é a dificuldade dos estudantes em entender o fluxo das disciplinas e identificar pré-requisitos e equivalências, logo se faz muito necessário seu aperfeiçoamento devido à sua importância.
-
-## Propósito da Avaliação e Uso Pretendido
-
-A avaliação da qualidade do software No Fluxo UNB tem como propósito verificar se o sistema atende aos requisitos de qualidade relacionados à usabilidade e à eficiência de desempenho, considerando seu contexto de utilização por estudantes da Universidade de Brasília (UnB).
-
-A avaliação será utilizada como apoio à tomada de decisões pela equipe do projeto, em especial para:
-
-- Identificar problemas de navegação e interação na interface;
-- Definir melhorias de desempenho em funcionalidades críticas;
-- Melhorar a satisfação e a produtividade dos usuários finais.
-
-Os principais usuários dos resultados da avaliação serão:
-
-| Parte                      | Uso dos Resultados                                               |
-| -------------------------- | ---------------------------------------------------------------- |
-| Desenvolvedores            | Corrigir problemas de interface, desempenho e fluxo de navegação |
-| Equipe de qualidade        | Priorizar testes e validar requisitos de qualidade               |
-| Administradores do sistema | Monitorar estabilidade e comportamento operacional               |
-| Coordenação do projeto     | Apoiar decisões sobre evolução e priorização de melhorias        |
-| Usuários finais            | Beneficiados indiretamente pelas melhorias implementadas         |
-
-O cenário de aplicação da avaliação envolve o uso real do sistema web por estudantes em atividades cotidianas, considerando:
-
-- Navegação em diferentes dispositivos;
-- Execução simultânea de acessos;
-- Uso contínuo das funcionalidades principais;
-- Necessidade de respostas rápidas e interface intuitiva.
-  Dessa forma, os resultados da avaliação serão usados diretamente para orientar decisões técnicas e gerenciais sobre a evolução do sistema, garantindo maior qualidade de uso e desempenho.
-
-## Requisitante
-
-O requisitante da avaliação é a equipe responsável pelo projeto No Fluxo UNB, composta pelos integrantes envolvidos no desenvolvimento, manutenção e garantia da qualidade do sistema. A equipe solicita a avaliação com o objetivo de verificar se o software atende aos critérios mínimos de qualidade definidos para usabilidade e eficiência.  
-
-## Partes Interessadas (Stakeholders)
-|Stakeholder|Papel no Projeto|Necessidades/Expectativas|Influência na Avaliação|
-|-----------|----------------|-------------------------|-----------------------|
-|Desenvolvedores|Implementação e manutenção do sistema|Identificar falhas técnicas e oportunidades de melhoria|Definem correções e evoluções a partir dos resultados|
-|Equipe de Qualidade|Planejamento e execução da avaliação|Obter métricas confiáveis sobre qualidade|Define critérios, métricas e procedimentos de avaliação|
-|Usuários finais (estudantes)|Utilização direta da plataforma|Facilidade de uso, rapidez e estabilidade|Influenciam critérios de usabilidade e experiência|
-|Administradores| Operadores	Monitoramento e suporte do sistema|Estabilidade operacional e baixo índice de falhas|Influenciam requisitos de desempenho e disponibilidade|
-|Universidade de Brasília (UnB)|Contexto institucional do sistema|Qualidade do serviço oferecido aos estudantes|Influencia expectativas gerais de qualidade|
-|Equipe de Infraestrutura|Hospedagem e suporte técnico|Uso eficiente de recursos computacionais|Influencia critérios de eficiência e desempenho|
-
-## Relação dos Stakeholders com a Avaliação
-
-- As **partes interessadas** influenciam diretamente a definição do escopo e dos critérios da avaliação:
-- Os **usuários finais** influenciam os critérios de usabilidade, acessibilidade e facilidade de aprendizado;
-- Os **desenvolvedores** utilizam os resultados para priorizar correções e melhorias técnicas;
-- A **equipe de qualidade** define métricas e interpreta os resultados obtidos;
-- Os **operadores e administradores** contribuem para os critérios relacionados à estabilidade e desempenho;
-- A **instituição** vinculada ao projeto influencia os padrões esperados de qualidade e confiabilidade.
-
-
-## Descrição Estruturada e Classificação do Software
-
-### Identificação do Produto
+## Identificação do Produto
 
 | Campo               | Informação                                                     |
 | ------------------- | -------------------------------------------------------------- |
@@ -81,7 +10,7 @@ O requisitante da avaliação é a equipe responsável pelo projeto No Fluxo UNB
 | **Público-alvo**    | Estudantes de graduação da Universidade de Brasília (UnB)      |
 | **Versão avaliada** | Versão disponível em produção (mai/2026)                       |
 
-### Classificação do Tipo de Produto
+## Classificação do Tipo de Produto
 
 De acordo com a norma ISO/IEC 25010 (SQuaRE), o **No Fluxo UNB** é classificado como:
 
@@ -91,7 +20,7 @@ De acordo com a norma ISO/IEC 25010 (SQuaRE), o **No Fluxo UNB** é classificado
 
 Essa classificação implica que características como **eficiência de desempenho**, **compatibilidade**, **segurança** e **confiabilidade** são especialmente relevantes para a avaliação, dado o contexto de uso real em ambiente web com múltiplos acessos simultâneos.
 
-### Descrição Estruturada do Software
+## Descrição Estruturada do Software
 
 ### Visão Geral
 
@@ -99,7 +28,7 @@ O No Fluxo UNB é um sistema web desenvolvido para auxiliar estudantes da Univer
 
 O problema central resolvido pelo sistema é a dificuldade dos estudantes em visualizar e compreender o fluxo de disciplinas, identificar pré-requisitos, equivalências e planejar semestralmente suas matrículas.
 
-##### Tela Inicial (Home)
+### Tela Inicial (Home)
 
 ![Tela inicial do No Fluxo UNB](../assets/fase1/home.png)
 
@@ -107,9 +36,9 @@ _Figura 1 — Tela inicial do sistema. Apresenta as duas modalidades de acesso: 
 
 A página inicial apresenta claramente o propósito da plataforma, com dois caminhos de acesso distintos: consulta livre de fluxogramas (visitante) e recursos personalizados que exigem autenticação (upload de histórico, salvamento de progresso e sugestões por IA).
 
-##### Módulos Principais
+### Módulos Principais
 
-##### 1. Módulo de Fluxogramas
+#### 1. Módulo de Fluxogramas
 
 ![Lista de fluxogramas disponíveis](../assets/fase1/lista-fluxogramas.png)
 
@@ -117,7 +46,7 @@ _Figura 2 — Listagem dos fluxogramas disponíveis. Exibe 518 cursos cadastrado
 
 Permite explorar e selecionar o fluxograma de qualquer curso da UnB. Possui busca por nome, tipo (ex.: Bacharelado, Licenciatura) e turno (Diurno/Noturno), além de paginação. Disponível para visitantes não autenticados.
 
-##### 2. Módulo Meu Fluxograma (Visão Grade)
+#### 2. Módulo Meu Fluxograma (Visão Grade)
 
 ![Fluxograma pessoal — visão grade](../assets/fase1/meu-fluxo.png)
 
@@ -131,7 +60,7 @@ Exibe o fluxograma personalizado do estudante com:
 - Acesso rápido a optativas e assistente de IA;
 - Controles de zoom e modos de exibição de dependências (Diretas / Todas / Off).
 
-##### 3. Módulo Meu Fluxograma (Visão com Linhas de Dependência)
+#### 3. Módulo Meu Fluxograma (Visão com Linhas de Dependência)
 
 ![Fluxograma com todas as linhas de dependência](../assets/fase1/fluxo-com-todas-linhas.png)
 
@@ -139,7 +68,7 @@ _Figura 4 — Visão do fluxograma com linhas de pré-requisito ativas (modo "To
 
 Complementa a visão em grade ao ativar as linhas de pré-requisitos e equivalências entre disciplinas, permitindo ao estudante entender visualmente quais matérias desbloqueiam outras ao longo do curso.
 
-##### 4. Módulo Meu Fluxograma — Painel de Progresso e Ferramentas
+#### 4. Módulo Meu Fluxograma — Painel de Progresso e Ferramentas
 
 ![Painel de progresso e ferramentas](../assets/fase1/meu-fluxo2.png)
 
@@ -152,7 +81,7 @@ Exibe ao estudante:
 - IRA (Índice de Rendimento Acadêmico);
 - Ferramenta de simulação de mudança de curso.
 
-##### 5. Módulo de Outros Fluxogramas (modo comparação)
+#### 5. Módulo de Outros Fluxogramas (modo comparação)
 
 ![Outros fluxogramas — modo visualização externa](../assets/fase1/outros-fluxogramas.png)
 
@@ -160,7 +89,7 @@ _Figura 6 — Fluxograma de outro curso (Administração, Bacharelado Diurno 201
 
 Ao selecionar um fluxograma diferente do seu, o estudante pode visualizar o currículo completo de outro curso com controles de zoom, troca de matriz e botão de retorno ao seu fluxograma pessoal.
 
-##### 6. Módulo de Disciplinas
+#### 6. Módulo de Disciplinas
 
 ![Tela de disciplinas com busca e cadeia topológica](../assets/fase1/lista-disciplinas.png)
 
@@ -172,7 +101,7 @@ Permite buscar qualquer disciplina da UnB pelo nome ou código e visualizar:
 - Disciplinas que dependem dela (dependentes);
 - Representação em grafo da cadeia topológica completa.
 
-##### 7. Módulo Assistente (Darcy AI)
+#### 7. Módulo Assistente (Darcy AI)
 
 ![Assistente virtual Darcy AI](../assets/fase1/assistente-virtual.png)
 
@@ -180,7 +109,7 @@ _Figura 8 — Assistente virtual Darcy AI, alimentado pela plataforma Maritaca A
 
 Assistente conversacional integrado à plataforma, com sugestões rápidas (ex.: "Recomendar matérias do meu curso") e campo de texto livre. Permite que o estudante obtenha orientações sobre disciplinas e planejamento acadêmico com suporte de IA.
 
-##### 8. Módulo de Importação de Histórico (Upload SIGAA)
+#### 8. Módulo de Importação de Histórico (Upload SIGAA)
 
 ![Tela de upload do histórico acadêmico](../assets/fase1/up-load-historico.png)
 
@@ -188,7 +117,7 @@ _Figura 9 — Tela de importação de histórico acadêmico. O estudante faz upl
 
 Permite ao estudante autenticado importar o histórico acadêmico em PDF (emitido pelo SIGAA) para que o sistema identifique automaticamente as disciplinas cursadas, aprovadas, reprovadas ou em andamento.
 
-##### 9. Integração com o SIGAA
+#### 9. Integração com o SIGAA
 
 ![Modal de integração com autenticação SIGAA](../assets/fase1/integracao-sigaa.png)
 
@@ -196,7 +125,9 @@ _Figura 10 — Modal de autenticação integrada com o SIGAA. O estudante insere
 
 O sistema oferece integração via autenticação com o SIGAA (Sistema Integrado de Gestão de Atividades Acadêmicas da UnB), permitindo que o histórico do estudante seja obtido automaticamente sem necessidade de exportação manual do PDF.
 
-#### Dependências e Integrações Externas
+---
+
+### Dependências e Integrações Externas
 
 | Componente        | Papel no sistema                                                                              |
 | ----------------- | --------------------------------------------------------------------------------------------- |
@@ -211,6 +142,8 @@ O sistema oferece integração via autenticação com o SIGAA (Sistema Integrado
 - O upload de histórico está limitado a arquivos PDF de até 10 MB emitidos oficialmente pela UnB.
 - A cobertura de cursos e matrizes depende da atualização contínua da base de dados da plataforma.
 
+---
+
 ### Implicações para a Avaliação
 
 A descrição estruturada acima evidencia os seguintes pontos relevantes para o escopo da avaliação:
@@ -219,10 +152,25 @@ A descrição estruturada acima evidencia os seguintes pontos relevantes para o 
 - **O que está fora do escopo imediato**: qualidade dos dados provenientes do SIGAA (fora do controle da equipe), segurança da integração SIGAA (depende de infraestrutura externa), e a qualidade do modelo de IA da Maritaca.
 - **Módulos críticos para a avaliação**: Meu Fluxograma (núcleo da experiência do usuário), Importação de Histórico (funcionalidade de alto impacto e dependência externa) e Assistente Darcy AI (componente de IA com comportamento não-determinístico).
 
-### Tabela de versão
+Especificação do Modelo de Qualidade
+Características Selecionadas
+Nesta etapa inicial do processo de avaliação, foram definidas as características de qualidade a serem consideradas com base nos objetivos da avaliação e nos usuários finais do produto, com objetivo de identificar características críticas para a experiência de planejamento acadêmico e o desempenho do sistema.
 
-| Versão | Autor          | Data       | Descrição                                        |
-| ------ | -------------- | ---------- | ------------------------------------------------ |
-| 1.0    | Julia Gabriela | 11/05/2026 | Criação do documento.                            |
-| 1.1    | Ana Luiza      | 12/05/2026 | Adição da Descrição Estruturada e Classificação. |
-| 1.2    | Julia Gabriela | 12/05/2026 | Adicionando stakeholders.                        |
+Foram priorizadas as características de usabilidade e eficiência, devido à sua relação direta com a facilidade de aprendizado, prevenção de erros, agilidade no tempo de resposta da aplicação e capacidade de suportar os diferentes tipos de fluxogramas propostos pela universidade, visando garantir aspectos fundamentais para um público composto majoritariamente por estudantes da Universidade de Brasília (UnB), que necessitam de uma ferramenta prática, rápida e de fácil entendimento para contornar a complexidade já existente nos fluxos de disciplinas.
+
+Usabilidade:
+Reconhecimento da Adequação (Appropriateness Recognizability): Avalia se o estudante, ao acessar o sistema pela primeira vez, consegue identificar imediatamente que a ferramenta serve para planejar sua grade curricular com base no seu histórico. A interface precisa deixar claro — por meio de chamadas visuais e instruções objetivas — que o upload do histórico e a seleção do fluxograma são o ponto de entrada, evitando que o usuário se questione se está no lugar certo.
+Capacidade de Aprendizado (Learnability): Mede a facilidade com que um aluno consegue, sem auxílio externo, entender o fluxo de uso: enviar o histórico, selecionar o curso e interpretar o resultado visual com as disciplinas classificadas por status e semestre.
+Proteção contra Erros do Usuário (User Error Protection): Examina se o sistema protege o aluno de erros críticos, como envio de um arquivo de histórico em formato inválido, seleção de um fluxograma incompatível com o seu curso ou interpretação incorreta de pré-requisitos. 
+Eficiência:
+Comportamento em Relação ao Tempo (Time Behaviour): Analisa a velocidade de resposta após o envio do histórico e a seleção do fluxograma — o tempo até o sistema processar as regras de pré-requisitos e renderizar o resultado visual deve ser suficientemente baixo para não frustrar o usuário.
+Capacidade (Capacity): Verifica se o sistema suporta adequadamente a variedade de fluxogramas cadastrados e a diversidade de históricos escolares enviados — que podem diferir em tamanho, formato e quantidade de disciplinas.
+
+---
+
+## Histórico de versão
+
+| Versão | Data | Descrição | Autor |
+|---|---|---|---|
+| 1.0 | 12/05/26 | Criação da página inicial | Camila Careli |
+| 1.1 | 12/05/26 | Revisão do conteúdo | Camila Careli |
