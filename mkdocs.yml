@@ -6,7 +6,6 @@ theme:
   name: material
 
   palette:
-
     # Tema claro
     - scheme: default
       primary: deep purple
@@ -28,10 +27,7 @@ theme:
 
 nav:
   - Início: inicio.md
-  - 'Fase 1 - Processo de Avaliação': fase1.md
-  - Fase 2: fase2.md
-  - Fase 3: fase3.md
-  - Fase 4: fase4.md
+  - "Fase 1 - Processo de Avaliação": fase1.md
 
 markdown_extensions:
   - md_in_html
