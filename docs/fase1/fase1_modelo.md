@@ -49,7 +49,7 @@ Nem tudo do modelo ISO/IEC 25010 foi incluído. As escolhas foram intencionais:
 
 O diagrama abaixo mostra como o modelo foi estruturado — em roxo, as subcaracterísticas de Usabilidade; em azul, as de Eficiência de Desempenho; em cinza tracejado, o que ficou fora do escopo desta fase.
 
-![Diagrama de Qualidade](../assets/fase1/DiagramaQualidadeDeProduto.png)
+![Diagrama de Qualidade](../assets/fase1/DiagramaQualidadeDeProduto.PNG)
 
 > **Legenda:**
 > - **Roxo** — Usabilidade e suas subcaracterísticas (em escopo)
