@@ -172,5 +172,6 @@ Capacidade (Capacity): Verifica se o sistema suporta adequadamente a variedade d
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
-| 1.0 | 12/05/26 | Criação da página inicial | Camila Careli |
-| 1.1 | 12/05/26 | Revisão do conteúdo | Camila Careli |
+| 1.0 | 12/05/26 | Escrita do conteúdo do documento | Ana Luiza |
+| 1.1 | 12/05/26 | Criação da página inicial | Camila Careli |
+| 1.2 | 12/05/26 | Revisão do conteúdo | Camila Careli |
