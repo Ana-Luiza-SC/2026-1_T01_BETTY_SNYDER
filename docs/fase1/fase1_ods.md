@@ -58,5 +58,5 @@ Pertinência: O No Fluxo UNB integra diferentes tecnologias e serviços, como SI
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
-| 1.0 | 12/05/26 | Criação da página inicial | Camila Careli |
+| 1.0 | 12/05/26 | Criação da página inicial | Daniel Rodrigues Nascimento |
 | 1.1 | 12/05/26 | Revisão do conteúdo | Camila Careli |

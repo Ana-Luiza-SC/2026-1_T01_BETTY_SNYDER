@@ -49,35 +49,7 @@ Nem tudo do modelo ISO/IEC 25010 foi incluído. As escolhas foram intencionais:
 
 O diagrama abaixo mostra como o modelo foi estruturado — em roxo, as subcaracterísticas de Usabilidade; em azul, as de Eficiência de Desempenho; em cinza tracejado, o que ficou fora do escopo desta fase.
 
-```mermaid
-graph TD
-    A["Modelo de Qualidade de Produto\nISO/IEC 25010 — No Fluxo UNB"]
-
-    A --> B["Usabilidade\n(Usability)"]
-    A --> C["⚡ Eficiência de Desempenho\n(Performance Efficiency)"]
-    A --> Z1["~~Confiabilidade~~\n(fora do escopo)"]
-    A --> Z2["... demais características\n(fora do escopo desta fase)"]
-
-    B --> B1["Reconhecimento da Adequação\n(Appropriateness Recognizability)"]
-    B --> B2["Capacidade de Aprendizado\n(Learnability)"]
-    B --> B3["Proteção contra Erros\n(User Error Protection)"]
-    B --> B4["Acessibilidade\n(Accessibility)"]
-
-    C --> C1["Comportamento em Relação\nao Tempo\n(Time Behaviour)"]
-    C --> C2["Capacidade\n(Capacity)"]
-
-    style A fill:#1a1a2e,color:#ffffff,stroke:#4a90d9,stroke-width:3px
-    style B fill:#3b1f6e,color:#ffffff,stroke:#9b59b6,stroke-width:2px
-    style C fill:#0d3b66,color:#ffffff,stroke:#4a90d9,stroke-width:2px
-    style B1 fill:#512d8a,color:#ffffff,stroke:#9b59b6
-    style B2 fill:#512d8a,color:#ffffff,stroke:#9b59b6
-    style B3 fill:#512d8a,color:#ffffff,stroke:#9b59b6
-    style B4 fill:#512d8a,color:#ffffff,stroke:#9b59b6
-    style C1 fill:#1d4e89,color:#ffffff,stroke:#4a90d9
-    style C2 fill:#1d4e89,color:#ffffff,stroke:#4a90d9
-    style Z1 fill:#4a4a4a,color:#aaaaaa,stroke:#666666,stroke-dasharray:5 5
-    style Z2 fill:#4a4a4a,color:#aaaaaa,stroke:#666666,stroke-dasharray:5 5
-```
+![Diagrama de Qualidade](../assets/fase1/DiagramaQualidadeDeProduto.png)
 
 > **Legenda:**
 > - **Roxo** — Usabilidade e suas subcaracterísticas (em escopo)
