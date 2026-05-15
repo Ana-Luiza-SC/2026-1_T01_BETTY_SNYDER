@@ -56,5 +56,6 @@ Ao final, o que se espera é que os resultados orientem melhorias reais no siste
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
-| 1.0 | 12/05/26 | Criação da página inicial | Daniel Rodrigues Nascimento |
-| 1.1 | 12/05/26 | Revisão do conteúdo | Camila Careli |
+| 1.0 | 12/05/26 | Criação da tabela de stakeholders e relação com a avaliação | Julia Gabriela |
+| 1.1 | 12/05/26 | Criação da página inicial | Daniel Rodrigues Nascimento |
+| 1.2 | 12/05/26 | Revisão do conteúdo | Camila Careli |
