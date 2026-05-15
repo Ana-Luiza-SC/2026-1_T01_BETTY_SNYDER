@@ -55,5 +55,6 @@ O requisitante da avaliação é a equipe responsável pelo projeto No Fluxo UNB
 
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
-| 1.0 | 12/05/26 | Criação da página inicial | Camila Careli |
-| 1.1 | 12/05/26 | Revisão do conteúdo | Camila Careli |
+| 1.0 | 11/05/26 | Criação do documento  | Julia Gabriela |
+| 1.1 | 12/05/26 | Criação do pages      | Camila Careli  |
+| 1.2 | 12/05/26 | Revisão do conteúdo   | Camila Careli  |
