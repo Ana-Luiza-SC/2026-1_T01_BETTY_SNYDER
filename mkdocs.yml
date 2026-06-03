@@ -28,13 +28,24 @@ theme:
 nav:
   - Início: inicio.md
   - Tabela de Contribuição: contribuicao.md
-  - "Fase 1 - Processo de Avaliação":
+  - "Fase 1 - Antiga":
     - Contextualização do Projeto e do Sistema: fase1/fase1_contextualizacao.md
     - Partes Interessadas: fase1/fase1_stakeholders.md
     - Modelo de Qualidade Adotado: fase1/fase1_modelo.md
     - Descrição Estruturada do Software: fase1/fase1_descricao.md
     - Escopo, Profundidade e Objetivos da Avaliação: fase1/fase1_escopo.md
     - Objetivos de Desenvolvimento Sustentável (ODS) Relacionados: fase1/fase1_ods.md
+  - Fase 1:
+    - Propósito de Avaliação: fase_1_v2/proposito_avaliacao.md
+    - Objetivo da Avaliação: fase_1_v2/objetivo_avaliacao.md
+    - Requisitos: fase_1_v2/requisitos.md
+    - Descrição: fase_1_v2/descricao.md
+    - Categoria: fase_1_v2/categoria.md
+    - Características: fase_1_v2/caracteristicas.md
+    - Modelo de Qualidade: fase_1_v2/modelo.md
+    - Escopo: fase_1_v2/escopo.md
+    - Objetivos de Desenvolvimento Sustentável: fase_1_v2/ods.md
+
 
 markdown_extensions:
   - md_in_html
