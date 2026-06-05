@@ -66,8 +66,80 @@ A avaliação é solicitada com o propósito de verificar se o sistema atende ao
 
 Os resultados obtidos serão utilizados como suporte à tomada de decisão da equipe, orientando ações de correção, melhoria e priorização de requisitos. Além disso, a avaliação permitirá identificar riscos relacionados à experiência do usuário e ao desempenho do sistema, fornecendo subsídios para futuras evoluções do software e contribuindo para aumentar a confiabilidade e a qualidade geral do produto entregue à comunidade acadêmica da Universidade de Brasília.
 
+## Stakeholder
+
+| Stakeholder                  | Papel no Projeto                         | Necessidades/Expectativas                              | Influência na Avaliação                                                     |
+|-----------------------------|------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------------|
+| Desenvolvedores             | Implementação e manutenção do sistema    | Identificar falhas técnicas e oportunidades de melhoria | Definem correções e evoluções a partir dos resultados                        |
+| Equipe de Qualidade         | Planejamento e execução da avaliação     | Obter métricas confiáveis sobre qualidade              | Define critérios, métricas e procedimentos de avaliação                      |
+| Usuários finais (estudantes)| Utilização direta da plataforma          | Facilidade de uso, rapidez e estabilidade              | Influenciam critérios de usabilidade e experiência                           |
+| Administradores/Operadores  | Monitoramento e suporte do sistema       | Estabilidade operacional e baixo índice de falhas      | Influenciam requisitos de desempenho e disponibilidade                       |
+| Universidade de Brasília (UnB)| Contexto institucional do sistema       | Qualidade do serviço oferecido aos estudantes          | Influencia expectativas gerais de qualidade                                   |
+| Equipe de Infraestrutura    | Hospedagem e suporte técnico             | Uso eficiente de recursos computacionais               | Influencia critérios de eficiência e desempenho                               |
+
+## Relação dos Stakeholders com a Avaliação
+
+- As partes interessadas influenciam diretamente a definição do escopo e dos critérios da avaliação:
+- Os usuários finais influenciam os critérios de usabilidade, acessibilidade e facilidade de aprendizado;
+- Os desenvolvedores utilizam os resultados para priorizar correções e melhorias técnicas;
+- A equipe de qualidade define métricas e interpreta os resultados obtidos;
+- Os operadores e administradores contribuem para os critérios relacionados à estabilidade e desempenho;
+- A instituição vinculada ao projeto influencia os padrões esperados de qualidade e confiabilidade.
+
+O No Fluxo UNB nasceu de uma necessidade real: estudantes da UnB têm dificuldade em entender o próprio curso. Pré-requisitos confusos, equivalências mal explicadas e a dificuldade em montar uma grade que faça sentido são problemas do dia a dia. O sistema veio justamente para resolver isso — e é por isso que a qualidade do que ele entrega importa tanto.
+
+Esta avaliação tem como foco duas dimensões que afetam diretamente a experiência de quem usa o sistema: a **Eficiência de Desempenho** e a **Confiabilidade**. Em outras palavras, queremos entender se o sistema é rápido o suficiente para não frustrar o estudante e se ele é confiável o bastante para ser usado nos momentos em que mais importa — especialmente no período de matrículas, quando muita gente acessa ao mesmo tempo e qualquer instabilidade pode ter consequências reais.
+
+Para guiar a avaliação, partimos de três perguntas principais:
+
+- O sistema responde em tempo hábil, tanto no uso cotidiano quanto nos picos de acesso?
+- A plataforma continua funcionando mesmo quando algo externo — como o SIGAA ou a integração com a IA — apresenta instabilidade?
+- Se algo der errado durante o uso, o sistema se recupera sem perda de dados ou progresso do estudante?
+
+## Impacto da Avaliação sobre os Stakeholders
+
+A avaliação da qualidade do sistema **No Fluxo UnB** afeta diretamente diferentes grupos envolvidos com o projeto, uma vez que seus resultados fornecem informações relevantes para decisões técnicas, operacionais e estratégicas. Como o sistema tem como objetivo auxiliar estudantes na compreensão de seus cursos, pré-requisitos, equivalências e planejamento acadêmico, garantir níveis adequados de **Eficiência de Desempenho** e **Confiabilidade** é fundamental para todos os stakeholders.
+
+Os **desenvolvedores** são diretamente beneficiados pelos resultados da avaliação, pois as métricas coletadas permitem identificar gargalos de desempenho, falhas de integração, problemas de estabilidade e oportunidades de melhoria na arquitetura do sistema. Com base nessas evidências, a equipe pode priorizar correções, refatorações e evoluções que aumentem a qualidade do produto.
+
+A **equipe de qualidade** utiliza os resultados para verificar se os critérios de avaliação foram atendidos e para identificar áreas que necessitam de maior atenção em futuras atividades de teste. Além disso, a avaliação fornece evidências objetivas para validar os requisitos de qualidade definidos para o projeto e aprimorar continuamente os processos de garantia da qualidade.
+
+Os **usuários finais**, representados principalmente pelos estudantes da Universidade de Brasília, são os principais beneficiários da avaliação. Caso os resultados indiquem melhorias necessárias, a equipe poderá implementar ajustes que tornem a plataforma mais rápida, estável e confiável. Isso reduz a probabilidade de interrupções durante o uso e aumenta a confiança dos estudantes nas informações fornecidas pelo sistema, especialmente em períodos críticos, como o planejamento de disciplinas e as matrículas.
+
+Os **administradores e operadores do sistema** são impactados porque a avaliação produz informações sobre comportamento operacional, disponibilidade e estabilidade da aplicação. Esses dados permitem identificar riscos relacionados à infraestrutura, monitorar possíveis falhas recorrentes e planejar ações preventivas para garantir a continuidade do serviço.
+
+A **equipe de infraestrutura** utiliza os resultados para compreender como o sistema consome recursos computacionais e como se comporta sob diferentes níveis de carga. As informações obtidas podem orientar decisões relacionadas à escalabilidade, configuração de servidores, otimização de recursos e preparação para períodos de maior demanda, contribuindo para melhorar a eficiência operacional da plataforma.
+
+Por sua vez, a **Universidade de Brasília (UnB)**, enquanto instituição beneficiada pelo projeto, é impactada de forma indireta pelos resultados da avaliação. Um sistema mais eficiente e confiável contribui para a melhoria dos serviços oferecidos à comunidade acadêmica, fortalece a confiança dos estudantes nas soluções tecnológicas da instituição e reduz problemas que possam afetar atividades acadêmicas importantes.
+
+Dessa forma, a avaliação não se limita a medir características técnicas do software. Seus resultados influenciam decisões de desenvolvimento, manutenção, operação e gestão, contribuindo para que o No Fluxo UnB evolua de maneira alinhada às necessidades dos estudantes e às expectativas dos demais stakeholders envolvidos no projeto.
+
+### Uso Pretendido dos Resultados
+
+Os resultados desta avaliação não são um fim em si mesmos. A ideia é que eles sirvam de base para decisões concretas, por diferentes pessoas envolvidas com o sistema:
+
+| Parte Interessada | Como vai usar os resultados |
+|---|---|
+| **Desenvolvedores** | Identificar onde o sistema trava, demora ou falha — especialmente no carregamento do fluxograma, no upload do histórico e na integração com o SIGAA — e priorizar o que corrigir primeiro |
+| **Equipe de Qualidade** | Verificar se as métricas definidas fazem sentido na prática e ajustar os critérios de aceitação conforme o que for encontrado |
+| **Administradores / Operadores** | Acompanhar o comportamento do sistema em produção e tomar decisões sobre infraestrutura e disponibilidade |
+| **Coordenação do Projeto** | Ter uma visão clara do que está funcionando bem e do que precisa de atenção para planejar os próximos passos do produto |
+| **Estudantes (usuários finais)** | Embora não participem diretamente da avaliação, são os maiores beneficiados: um sistema mais rápido e estável melhora diretamente sua experiência de planejamento acadêmico |
+
+### Cenário de Aplicação
+
+A avaliação considera situações reais de uso do sistema — não cenários ideais ou controlados artificialmente. Isso inclui:
+
+- Momentos de alta demanda, como os dias de abertura de matrículas, quando muitos estudantes acessam a plataforma ao mesmo tempo;
+- O envio do histórico acadêmico em PDF, que pode variar bastante em tamanho e complexidade dependendo do curso e do semestre do aluno;
+- A visualização de fluxogramas com muitas disciplinas e longas cadeias de pré-requisitos;
+- O uso do assistente Darcy AI, que depende de uma chamada a um serviço externo (Maritaca AI) e pode sofrer com latência ou indisponibilidade;
+- O acesso por dispositivos variados, desde notebooks até celulares, em condições de internet que nem sempre são as melhores.
+
+Ao final, o que se espera é que os resultados orientem melhorias reais no sistema, de forma que o No Fluxo UNB continue crescendo com qualidade e confiança por parte de quem o usa.
+
 ## Uso de IA
-IA usada para revisão ortográfica e detalhamento de uso dos resultados
+IA usada para revisão ortográfica, detalhamento de uso dos resultados e definição do impacto da avaliação sobre os stakeholders
 
 ## Histórico de versão
 
