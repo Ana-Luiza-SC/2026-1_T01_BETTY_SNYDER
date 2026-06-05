@@ -49,7 +49,7 @@ Nem tudo do modelo ISO/IEC 25010 foi incluído. As escolhas foram intencionais:
 
 O diagrama abaixo mostra como o modelo foi estruturado:
 
-![Diagrama de Qualidade](../assets/fase1/DiagramaQualidadeDeProduto.png)
+![Diagrama de Qualidade](../assets/fase1/DiagramaQualidadeDeProduto.jpeg)
 
 > **Legenda:**
 
