@@ -45,6 +45,8 @@ nav:
     - Modelo de Qualidade: fase_1_v2/modelo.md
     - Escopo: fase_1_v2/escopo.md
     - Objetivos de Desenvolvimento Sustentável: fase_1_v2/ods.md
+  - Fase 2:
+    - GQM - Goals: fase_2/gqm_objetivo.md
 
 
 markdown_extensions:
