@@ -8,7 +8,7 @@ A etapa de identificação do produto é o ponto de partida da avaliação. Ela 
 | ----- | ---------- |
 | **Nome do produto** | No Fluxo UNB |
 | **URL** | https://no-fluxo.crianex.com/ |
-| **Tipo de sistema** | Software de computador pessoal |
+| **Tipo de sistema** | Aplicação web responsiva |
 | **Plataforma** | Web (navegador), responsivo para dispositivos móveis e desktop |
 | **Domínio da aplicação** | Educacional e Acadêmico — planejamento e gestão de grade curricular universitária |
 | **Público-alvo** | Estudantes de graduação da Universidade de Brasília (UnB) |
@@ -22,13 +22,14 @@ O No Fluxo UNB está inserido no domínio **Educacional e Acadêmico**, atuando 
 
 ### 1.2 Objetivo em Relação à Avaliação
 
-A avaliação do No Fluxo UNB tem como objetivo **indicar pontos para melhoria no produto**, verificando se o sistema atende aos requisitos de qualidade relacionados à **Usabilidade** e à **Eficiência de Desempenho**. Mais informações sobre os objetivos da avaliação podem ser encontradas na aba de [objetivos](objetivo_avaliacao.md).
+A avaliação do No Fluxo UNB tem como objetivo verificar se o sistema atende aos requisitos de qualidade relacionados à **Usabilidade** e à **Eficiência de Desempenho**, considerando seu contexto de utilização por estudantes da Universidade de Brasília (UnB). A avaliação seguirá diretrizes da série SQuaRE (ISO/IEC 25000) e utilizará evidências para apoiar decisões de melhoria.
 
-De forma mais específica e resumida, a avaliação busca:
+De forma mais específica, a avaliação busca:
 
-- Identificar problemas de navegação e interação na interface que dificultem o uso por estudantes sem treinamento prévio;
-- Detectar gargalos de desempenho em funcionalidades críticas, como a renderização do fluxograma e o processamento do histórico acadêmico;
-- Gerar insumos concretos para que a equipe de desenvolvimento priorize melhorias com base em evidências.
+- Identificar problemas de navegação, interação e compreensão nas funcionalidades principais do sistema;
+- Avaliar a eficiência do processamento de dados em operações críticas, como upload de histórico, leitura de regras acadêmicas e renderização do fluxograma;
+- Verificar a confiabilidade e o tempo de resposta do Assistente Darcy AI e de integrações externas como o SIGAA;
+- Gerar insumos concretos para que a equipe de desenvolvimento priorize melhorias de usabilidade e desempenho.
 
 ---
 
@@ -49,13 +50,13 @@ As características de **Usabilidade** e **Eficiência de Desempenho** foram pri
 
 ### 2.2 Abrangência, Profundidade e Objetos de Avaliação
 
-**Abrangência:** A avaliação cobre os módulos principais do sistema acessíveis em produção, com foco naqueles de maior impacto na experiência do usuário:
+**Abrangência:** A avaliação cobre os módulos principais do sistema acessíveis em produção, com foco nas funcionalidades de maior impacto na experiência do usuário e na integridade dos dados:
 
-- **Módulo Meu Fluxograma** — núcleo da experiência, renderização interativa e visualização de dependências entre disciplinas;
-- **Módulo de Importação de Histórico (Upload SIGAA)** — funcionalidade de alto impacto, com dependência externa e processamento de PDF;
-- **Módulo de Seleção de Curso** — ponto de entrada do fluxo principal de uso;
-- **Módulo de Disciplinas** — consulta de pré-requisitos e cadeia topológica;
-- **Assistente Darcy AI** — componente com comportamento não-determinístico, relevante para medir eficiência de tempo de resposta.
+- **Módulo Meu Fluxograma** — núcleo da experiência, renderização gráfica do fluxo acadêmico, visualização de pré-requisitos, equivalências e status das disciplinas;
+- **Módulo de Importação de Histórico (Upload/SIGAA)** — principal porta de entrada de dados do sistema, incluindo leitura de histórico em PDF e integração com o SIGAA;
+- **Módulo de Seleção de Curso** — definição do curso ou habilitação cujo fluxograma será analisado;
+- **Módulo de Disciplinas** — consulta de pré-requisitos, cadeias topológicas e informações detalhadas de cadeira;
+- **Assistente Darcy AI** — agente de IA para suporte ao usuário, com foco na confiabilidade das respostas e no tempo de resposta de integrações externas.
 
 **Profundidade:** A avaliação combina inspeção heurística da interface, verificação de comportamento nos fluxos principais de uso e medições objetivas de tempo de resposta. Não serão realizados testes extensivos de carga, segurança avançada ou análise interna da infraestrutura de rede.
 
@@ -63,11 +64,11 @@ As características de **Usabilidade** e **Eficiência de Desempenho** foram pri
 
 | Objeto | Aspecto avaliado |
 | ------ | ---------------- |
-| Interface do fluxograma interativo | Usabilidade (reconhecimento, aprendizado, proteção a erros) |
-| Fluxo de upload do histórico em PDF | Usabilidade e Eficiência (tempo de processamento, feedback ao usuário) |
-| Renderização das disciplinas por status e semestre | Eficiência (tempo de carregamento, comportamento visual) |
-| Consulta de pré-requisitos e cadeia topológica | Usabilidade (clareza da informação apresentada) |
-| Assistente Darcy AI | Eficiência (tempo de resposta do serviço externo) |
+| Upload e leitura de histórico escolar | Usabilidade e eficiência (tempo de processamento, tratamento de erros e feedback ao usuário) |
+| Seleção de curso e definição do fluxograma | Usabilidade (clareza do fluxo e consistência da experiência) |
+| Renderização do fluxograma interativo | Usabilidade e eficiência (tempo de carregamento, legibilidade e organização por status) |
+| Consulta de pré-requisitos e equivalências | Usabilidade (compreensão das dependências e acesso à informação) |
+| Assistente Darcy AI | Eficiência e confiabilidade (tempo de resposta e comportamento em integrações externas) |
 
 **Relacionamento com avaliações anteriores/futuras:** Esta é a avaliação inicial do produto no contexto da disciplina. Os resultados desta fase servirão de linha de base para avaliações futuras e orientarão o ciclo de melhorias da equipe de desenvolvimento.
 
@@ -112,3 +113,4 @@ Ao final da avaliação, espera-se entregar:
 |---|---|---|---|
 | 1.0 | 03/06/26 | Criação da página | Ígor Veras |
 | 1.1 | 03/06/26 | Elaboração do conteúdo completo | Ígor Veras |
+| 1.2 | 05/06/26 | Adequação da página com descrição e objetivos novos | Ígor Veras |
