@@ -1,12 +1,12 @@
-Este trabalho foi desenvolvido no âmbito da disciplina de Qualidade de Software, com o objetivo de executar o processo de avaliação de um produto de software, aplicando metodologias e normas reconhecidas internacionalmente (Série SQuaRE - ISO/IEC 25000). A avaliação foca nas características de Usabilidade e Eficiência de Desempenho, sendo requisitada pela professora da disciplina e conduzida pela equipe do projeto. 
+# Objetivo da Avaliação 
 
-## Sobre o aplicativo
+## Sobre o Aplicativo
 
 O [No Fluxo UNB](https://no-fluxo.crianex.com/) é um sistema web desenvolvido  por estudantes da Faculdade de Ciência e Tecnologia(FCTE), no âmbito da disciplina de Metodologia e Desenvolvimento de Software, visando auxiliar estudantes da Universidade de Brasília no planejamento acadêmico do curso. O software oferece um fluxograma interativo e personalizado, permitindo que os alunos organizem melhor sua trajetória universitária.
 
 O principal problema que o sistema busca resolver é a dificuldade dos estudantes em entender o fluxo das disciplinas e identificar pré-requisitos e equivalências, logo se faz muito necessário seu aperfeiçoamento devido à sua importância.
 
-## Domínio da aplicação
+## Domínio da Aplicação
 
 O sistema está inserido no domínio Educacional e Acadêmico. Ele atua especificamente no nicho de planejamento e gestão de grade curricular. O seu principal objetivo é solucionar a dificuldade frequente dos estudantes em compreender o fluxo de disciplinas de seus cursos, bem como identificar facilmente os pré-requisitos e equivalências exigidos pela universidade. 
 
@@ -29,14 +29,6 @@ A avaliação será utilizada como apoio à tomada de decisões pela equipe do p
 - Definir melhorias de desempenho em funcionalidades críticas;
 - Melhorar a satisfação e a produtividade dos usuários finais.
 - Os principais usuários dos resultados da avaliação serão:
-
-| Parte                   | Uso dos Resultados                                                     |
-|------------------------|------------------------------------------------------------------------|
-| Desenvolvedores        | Corrigir problemas de interface, desempenho e fluxo de navegação      |
-| Equipe de qualidade    | Priorizar testes e validar requisitos de qualidade                    |
-| Administradores do sistema | Monitorar estabilidade e comportamento operacional               |
-| Coordenação do projeto | Apoiar decisões sobre evolução e priorização de melhorias            |
-| Usuários finais        | Beneficiados indiretamente pelas melhorias implementadas             |
 
 Os resultados da avaliação serão utilizados por diferentes partes interessadas do projeto **No Fluxo UnB**, servindo como base para decisões técnicas e gerenciais relacionadas à qualidade do sistema. Para a equipe de desenvolvimento, os resultados fornecerão informações objetivas sobre problemas de interface, desempenho e fluxo de navegação, permitindo identificar defeitos, corrigir inconsistências e implementar melhorias que aumentem a eficiência e a experiência dos usuários.
 
@@ -68,6 +60,7 @@ Os resultados obtidos serão utilizados como suporte à tomada de decisão da eq
 
 ## Stakeholder
 
+*Tabela 1: Tabela dos Stakeholders*
 | Stakeholder                  | Papel no Projeto                         | Necessidades/Expectativas                              | Influência na Avaliação                                                     |
 |-----------------------------|------------------------------------------|--------------------------------------------------------|-------------------------------------------------------------------------------|
 | Desenvolvedores             | Implementação e manutenção do sistema    | Identificar falhas técnicas e oportunidades de melhoria | Definem correções e evoluções a partir dos resultados                        |
@@ -118,6 +111,7 @@ Dessa forma, a avaliação não se limita a medir características técnicas do 
 
 Os resultados desta avaliação não são um fim em si mesmos. A ideia é que eles sirvam de base para decisões concretas, por diferentes pessoas envolvidas com o sistema:
 
+*Tabela 2: Relação de Partes Interessadas e Resultados*
 | Parte Interessada | Como vai usar os resultados |
 |---|---|
 | **Desenvolvedores** | Identificar onde o sistema trava, demora ou falha — especialmente no carregamento do fluxograma, no upload do histórico e na integração com o SIGAA — e priorizar o que corrigir primeiro |
@@ -141,6 +135,10 @@ Ao final, o que se espera é que os resultados orientem melhorias reais no siste
 ## Uso de IA
 IA usada para revisão ortográfica, detalhamento de uso dos resultados e definição do impacto da avaliação sobre os stakeholders
 
+## Bibliografia 
+
+CASA DO DESENVOLVEDOR. **Stakeholders: o que são e qual sua importância em projetos**. Disponível em: <https://blog.casadodesenvolvedor.com.br/stakeholders/>. Acesso em: 04 de junho 2026.
+
 ## Histórico de versão
 
 | Versão | Data | Descrição | Autor |
@@ -149,3 +147,4 @@ IA usada para revisão ortográfica, detalhamento de uso dos resultados e defini
 | 1.1 | 12/05/26 | Criação do pages      | Camila Careli  |
 | 1.2 | 12/05/26 | Revisão do conteúdo   | Camila Careli  |
 | 1.3 | 04/06/26 | Complementando contexto  | Julia Gabriela |
+| 1.4 | 07/06/26 | Corrigindo formatação | Julia Gabriela |
