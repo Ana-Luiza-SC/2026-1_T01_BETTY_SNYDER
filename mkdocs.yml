@@ -47,6 +47,7 @@ nav:
     - Objetivos de Desenvolvimento Sustentável: fase_1_v2/ods.md
   - Fase 2:
     - GQM - Goals: fase_2/gqm_objetivo.md
+    - GQM - Questions: fase_2/gqm_questoes.md
 
 
 markdown_extensions:

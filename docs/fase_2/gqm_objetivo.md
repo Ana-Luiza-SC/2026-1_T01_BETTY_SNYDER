@@ -4,6 +4,8 @@ Esta seção apresenta a definição formal dos objetivos de medição, hipótes
 
 Foram mapeados dois focos principais de análise, alinhados às [características de qualidade selecionadas na Fase 1](../fase_1_v2/caracteristicas.md):
 
+<a id="objetivo1"></a>
+
 ### Objetivo 1: Avaliação de Usabilidade
 
 | Dimensão GQM | Definição do Objetivo |
@@ -15,6 +17,8 @@ Foram mapeados dois focos principais de análise, alinhados às [característica
 | **No contexto de** | Utilização da plataforma web em dispositivos variados (computadores e celulares) e realização de tarefas cotidianas e críticas de planejamento acadêmico, tais como o upload do histórico escolar em PDF emitido pelo SIGAA e a interpretação/navegação visual pelo grafo do fluxograma de disciplinas — ver [Dentro do Escopo](../fase_1_v2/escopo.md#dentro-do-escopo) e [Funções Alvo da Avaliação](../fase_1_v2/descricao.md#funcoes-alvo-da-avaliacao). |
 
 <center><sub>Tabela 1 — Objetivo GQM de Usabilidade.</sub></center>
+
+<a id="objetivo2"></a>
 
 ### Objetivo 2: Avaliação de Eficiência de Desempenho
 
@@ -75,3 +79,4 @@ Eu, [Camila Careli](https://github.com/camilascareli), declaro que utilizei a fe
 | Versão | Data | Descrição | Autor |
 |---|---|---|---|
 | 1.0 | 06/06/26 | Escrita do conteúdo do documento | Camila Careli |
+| 1.1 | 06/06/26 | Apenas adicionei tags de hiperlink para usar nas questões GQM | Ana Luiza |

@@ -37,6 +37,7 @@ Essas atribuições foram realizadas por meio de uma análise consultiva e técn
 - O **impacto** mensura a severidade do dano causado à experiência do estudante caso a subcaracterística falhe.
  - O **risco** indica a probabilidade de ocorrência dessa falha na prática, considerando fatores críticos de infraestrutura, como a instabilidade na comunicação com APIs externas, o volume de acessos simultâneos em períodos de matrícula e a integridade dos arquivos gerados pelo SIGAA.
 
+<a id="usabilidade"></a>
 
 ### 1. Usabilidade
 
@@ -50,6 +51,8 @@ Refere-se à capacidade do software de permitir que seus usuários atinjam seus 
 | **Acessibilidade** | Alto | Médio | Avalia a adaptação da interface para garantir que discentes com diferentes capacidades visuais, motoras ou cognitivas utilizem a plataforma em igualdade de condições dentro da universidade [[3]](#ref03). |
 
 <center><sub>Tabela 2 — Classificação das subcaracterísticas de Usabilidade.</sub></center>
+
+<a id="eficiencia"></a>
 
 ### 2. Eficiência de Desempenho
 
@@ -85,3 +88,4 @@ Eu, [Camila Careli](https://github.com/camilascareli), declaro que utilizei o Ch
 | 1.2 | 12/05/26 | Revisão do conteúdo | Camila Careli |
 | 1.3 | 06/06/26 | Definição das características selecionadas, justificativas, referências e revisão do conteúdo | Camila Careli |
 | 2.0 | 06/06/26 | Adição das subcaracterísticas | Camila Careli |
+| 2.1 | 06/06/26 | Apenas adicionei tags de hiperlink para usar nas questões GQM | Ana Luiza |
