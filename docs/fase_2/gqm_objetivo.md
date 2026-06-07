@@ -26,7 +26,7 @@ Foram mapeados dois focos principais de análise, alinhados às [característica
 | :--- | :--- |
 | **Analisar** | O tempo de processamento e a comunicação de dados do ecossistema de software. |
 | **Para o propósito de** | Compreender e avaliar. |
-| **Com respeito ao foco de qualidade** | Eficiência de Desempenho (focando especificamente na subcaracterística de Comportamento em Relação ao Tempo) — ver [Tabela 3 — Eficiência de Desempenho](../fase_1_v2/caracteristicas.md#2-eficiencia-de-desempenho). |
+| **Com respeito ao foco de qualidade** | Eficiência de Desempenho (focando nas subcaracterísticas de Comportamento em Relação ao Tempo e Capacidade) — ver [Tabela 3 — Eficiência de Desempenho](../fase_1_v2/caracteristicas.md#2-eficiencia-de-desempenho). |
 | **Do ponto de vista do/a** | Equipe de desenvolvimento e infraestrutura (para identificar gargalos de processamento, falhas de integração e consumo de recursos) e administradores/operadores do sistema (para monitorar a estabilidade operacional e a latência da plataforma) — ver [Stakeholders](../fase_1_v2/objetivo_avaliacao.md#stakeholder). |
 | **No contexto de** | Cenários de uso real da aplicação, envolvendo situações de alta demanda (como períodos de matrícula), o processamento sequencial de arquivos (leitura e extração de dados do PDF do histórico do SIGAA), a comunicação externa via API com o assistente Darcy AI (Maritaca AI) e a renderização síncrona dos grafos de disciplinas — ver [Cenário e Dados de Teste](../fase_1_v2/escopo.md#cenario-e-dados-de-teste) e [Cenário de Aplicação](../fase_1_v2/objetivo_avaliacao.md#cenario-de-aplicacao). |
 
@@ -80,3 +80,4 @@ Eu, [Camila Careli](https://github.com/camilascareli), declaro que utilizei a fe
 |---|---|---|---|
 | 1.0 | 06/06/26 | Escrita do conteúdo do documento | Camila Careli |
 | 1.1 | 06/06/26 | Apenas adicionei tags de hiperlink para usar nas questões GQM | Ana Luiza |
+| 1.2 | 07/06/26 | Inclusão da subcaracteristica no objetivo 2 | Camila Careli |
