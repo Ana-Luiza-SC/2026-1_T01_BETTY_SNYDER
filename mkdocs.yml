@@ -49,6 +49,8 @@ nav:
     - GQM - Goals: fase_2/gqm_objetivo.md
     - GQM - Questions: fase_2/gqm_questoes.md
     - GQM - Metrics: fase_2/gqm_metricas.md
+  - Fase 3:
+    - Método de Avaliação: fase_3/metodo.md
 
 
 markdown_extensions:
