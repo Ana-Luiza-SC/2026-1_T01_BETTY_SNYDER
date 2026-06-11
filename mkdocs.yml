@@ -51,6 +51,8 @@ nav:
     - GQM - Metrics: fase_2/gqm_metricas.md
   - Fase 3:
     - Método de Avaliação: fase_3/metodo.md
+    - Massa de Dados: fase_3/massa_de_dados.md
+    - Procedimentos de Avaliação: fase_3/procedimentos.md
 
 
 markdown_extensions:
